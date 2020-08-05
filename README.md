@@ -4,7 +4,7 @@ Request / Response :
 
     Invalid Employee Id  : 
             Request : 
-                http://localhost:8080/employee/122sam
+                http://localhost:8080/employee/122ignite
             Response : 
                 { "exceptionMessage": "Employee Id Should be Numeric", "exceptionCode": "100" }
             Status : 
@@ -15,7 +15,7 @@ Request / Response :
             Request : 
                 http://localhost:8080/employee/1000000
             Response : 
-                { "exceptionMessage": "Employee Record Not found for Id : 122", "exceptionCode": "200" }
+                { "exceptionMessage": "Employee Record Not found for Id : 1000000", "exceptionCode": "200" }
             Status : 
                 404 - Not Found
     
