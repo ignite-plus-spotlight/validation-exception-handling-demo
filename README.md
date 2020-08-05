@@ -21,7 +21,7 @@ Request / Response :
     
     Valid Employee Id : 
             Request : 
-                http://localhost:8080/employee/1000000
+                http://localhost:8080/employee/1
             Response : 
                 { "employeeId": "1", "employeeName": "SaM", "employeeEmail": "sam@gmail.com" }
             Status : 
